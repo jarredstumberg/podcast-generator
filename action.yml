@@ -11,7 +11,7 @@ inputs:
   email: 
     description: jarred.stumberg@gmail.com
     required: true
-    default: ${{ gitub.actor }}@localhost
+    default: ${{ github.actor }}@localhost
   name:
     description: Jarred Stumberg
     required: true
