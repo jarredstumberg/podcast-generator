@@ -8,10 +8,11 @@ branding:
   icon: "git-branch"
   color: "green"
 inputs: 
-  email: description: jarred.stumberg@gmail.com
-  required: true
-  default: ${{ gitub.actor }}@localhost
-name:
-  description: Jarred Stumberg
-  required: true
-  default: ${{ github.actor }}
+  email: 
+    description: jarred.stumberg@gmail.com
+    required: true
+    default: ${{ gitub.actor }}@localhost
+  name:
+    description: Jarred Stumberg
+    required: true
+    default: ${{ github.actor }}
